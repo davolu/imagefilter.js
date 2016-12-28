@@ -1,0 +1,108 @@
+ <html>
+ <head>
+ <script src="imageFilter.js"></script>
+ 
+ <style>
+ 
+ img
+ {
+   width:250px;
+   height:250px;
+ 
+ }
+ 
+ </style>
+ 
+ </head>
+ 
+ <body>
+  
+ 
+   
+ 
+ 
+ <div >
+ <h1 align="center"> imageFilter.js</h1>
+ <h3>About</h3>
+ <p>
+ imageFilter.js is a simple libary that can be used to add effects to html images on the fly with ease....
+ </p>
+ 
+ <h3>How to use it</h3>
+ <p>
+ imageFilter.js is very easy to use. It doesnt require any external libary or any css file. All thats needed is the <a href="#">imageFilter.js</a> libary.
+ <br/>
+ Firstly, include the libary in the &lt;head&gt; as in:<br/><br/>
+ 
+ &lt;script src="imageFilter.js"&gt; &lt;/script&gt;
+ 
+ </p>
+ 
+ <p>
+ Now, to use the effect, just add the effect class to the img element as in: <br/><br/>
+ 
+ &lt;img src="davo.jpg"   class=" img-inverted" /&gt;
+ <br/>
+ <br/>
+ The above will give the image an inverted effect.
+ </P>
+ <p>
+  <img src="davo.jpg"   class=" img-inverted"  />inverted image (from class img-inverted)  
+ </p>
+ 
+ 
+ 
+ </div>
+ 
+ 
+  <p>
+ 
+ Other class values are:
+ 
+  <pre>
+img-inverted 
+img-grayscale 
+img-brightness(value)  integer between 1-20
+img-contrast(value)    integer between 1-20
+img-threshold(value)    integer between 1-20
+img-blur 
+img-sharpen 
+img-edge 
+img-reflect 
+img-sobel  
+img-rgb(r,g,b)  
+img-rgba(r,g,b,a)    
+img-conv(a,b,c,d,e,f,g,h,i)  3x3 kernel...  a-i are integers (positive and negative)
+ </pre>
+ 
+ </p>
+ 
+ <p>
+ 
+    <img src="davo.jpg"   class=" img-inverted" />   &lt; img src="davo.jpg"   class=" img-inverted"    /&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-grayscale"/>  &lt;img src="davo.jpg"   class=" img-grayscale	"	/&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-brightness(7)"/>  &lt;	img src="davo.jpg"   class=" img-brightness(7)"	/&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-contrast(8)"/>	 &lt;img src="davo.jpg"   class=" img-contrast(8)"		/&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-threshold(7)"/>	 &lt;img src="davo.jpg"   class=" img-threshold(7)"		/&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-blur"/>	 &lt;img src="davo.jpg"   class=" img-blur"		/&gt;<br/><br/>
+   <img src="davo.jpg"   class=" img-sharpen"/>		 &lt;img src="davo.jpg"   class=" img-sharpen"		/&gt;<br/><br/>
+    <img src="davo.jpg"   class=" img-edge"/>		 &lt;img src="davo.jpg"   class=" img-edge"		/&gt;<br/><br/>
+    <img src="davo.jpg"   class=" img-reflect"/>		 &lt;img src="davo.jpg"   class=" img-reflect"		/&gt;<br/><br/>
+	 <img src="davo.jpg"   class=" img-sobel"/>		 &lt;img src="davo.jpg"   class=" img-sobel"		/&gt;<br/><br/>
+  <img src="davo.jpg"   class=" img-rgb(185,122,87)"  />		 &lt;img src="davo.jpg"   class=" img-rgb(130,145,100)"  		/&gt;<br/><br/>
+  <img src="davo.jpg"   class=" img-rgba(130,15,100,234)"  /> 		 &lt;img src="davo.jpg"   class=" img-rgba(130,15,100,234)"  		/&gt;<br/><br/>
+	   <img src="davo.jpg"   class=" img-conv(-1,-1,-1,-1,8,-1,-1,-1,-1)"/>		 &lt;img src="davo.jpg"   class=" img-conv(-1,-1,-1,-1,8,-1,-1,-1,-1)"		/&gt;<br/><br/>
+ 
+ </p>
+ 
+ 
+ <p>
+ 
+ 
+ 
+    
+  
+ <p>
+ 
+ </body>
+ </html>
